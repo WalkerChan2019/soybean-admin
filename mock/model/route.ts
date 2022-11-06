@@ -506,7 +506,7 @@ export const routeModel: Record<Auth.RoleType, AuthRoute.Route[]> = {
         requiresAuth: true,
         singleLayout: 'basic',
         icon: 'fluent:book-information-24-regular',
-        order: 10
+        order: 11
       }
     }
   ],
@@ -1009,6 +1009,19 @@ export const routeModel: Record<Auth.RoleType, AuthRoute.Route[]> = {
         icon: 'fluent:book-information-24-regular',
         order: 10
       }
+    },
+    {
+      name: 'fangdajing',
+      path: '/fangdajing',
+      component: 'self',
+      meta: {
+        title: '放大镜',
+        requiresAuth: true,
+        singleLayout: 'basic',
+        permissions: ['super', 'admin', 'user'],
+        icon: 'fluent:book-information-24-regular',
+        order: 11
+      }
     }
   ],
   user: [
@@ -1120,6 +1133,19 @@ export const routeModel: Record<Auth.RoleType, AuthRoute.Route[]> = {
         singleLayout: 'basic',
         icon: 'fluent:book-information-24-regular',
         order: 8
+      }
+    },
+    {
+      name: 'fangdajing',
+      path: '/fangdajing',
+      component: 'self',
+      meta: {
+        title: '放大镜',
+        requiresAuth: true,
+        singleLayout: 'basic',
+        permissions: ['super', 'admin', 'user'],
+        icon: 'fluent:book-information-24-regular',
+        order: 9
       }
     }
   ]

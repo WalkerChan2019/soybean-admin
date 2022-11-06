@@ -61,6 +61,7 @@ declare namespace AuthRoute {
     | 'management_role'
     | 'management_auth'
     | 'management_route'
+    | 'fangdajing'
     | 'about';
 
   /** 路由的path */
